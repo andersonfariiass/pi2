@@ -8,7 +8,7 @@
 echo
 
 HORARIO=$(date +"%d-%m-%y %H:%M")
-LOG="/vagrant/init_$1.log"
+LOG="/vagrant/vm_$1.log"
 
 #check log
 
