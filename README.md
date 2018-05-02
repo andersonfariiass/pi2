@@ -14,7 +14,7 @@ Procedimeto para configuração do ambiente
 	Faça download e instalação do vagrant no site oficial https://www.vagrantup.com/downloads.html
 	Faça download e instalação do VirtualBox
 	Faça download deste projeto (git clone https://github.com/andersonfariiass/pi2.git)
-	Dentro do diretório pi2/ crie um diretório chamado docker e dentro crie dois diretórios:
+	Dentro do diretório pi2/ crie um diretório chamado docker e dentro crie a seguinte estrutura de diretórios:
 		mysql - Diretório onde será armazenado a base de dados do mysql
 		www/html - Diretório onde será armazenado os arquivos da aplicação
 	Dentro do diretório raiz (pi2) execute o comando - vagrant up
@@ -26,4 +26,4 @@ Executando os procedimentos acima,será criado no VirtualBox uma VM:
 
 Para acessar a aplicação que foi utilizada para teste:
 	
-	web - http://192.168.50.10:8080 (este app executa um arquivo index.php que conecta ao banco, insere dados e exibi os dados na tela do browser)
+	Acesse o endereço http://192.168.50.10:8080 (este app executa um arquivo index.php que conecta ao banco, insere dados e exibi os dados na tela do browser).
