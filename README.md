@@ -28,6 +28,7 @@ Para acessar a aplicação que foi utilizada para teste:
 	
 	Acesse o endereço http://192.168.50.10:8080 (este app executa um arquivo index.php que conecta ao banco, insere dados e exibi os dados na tela do browser).
 	Usando o MySQL Workbench para acessar o banco:
+		IP: 192.168.50.10
 		user: docker
 		senha: docker
 		porta: 3306
