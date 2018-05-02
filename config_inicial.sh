@@ -32,7 +32,7 @@ echo -e "\n#############################" >> $LOG
 echo -e "# Atualizando a Distro      #" >> $LOG
 echo -e "#############################\n" >> $LOG
 
-#sudo apt-get dist-upgrade -y >> $LOG 2>&1
+sudo apt-get dist-upgrade -y >> $LOG 2>&1
 
 # Configação de data/hora e fuso horario
 echo -e "\n##############################################################" >> $LOG
