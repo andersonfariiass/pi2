@@ -4,9 +4,8 @@ Repositório projeto integrador II
 Neste repositorio conterá os arquivos e procedimentos necessários para subir um ambiente de desenvolvimento com Apache, PHP e MySQL em Docker e  Virtualizado.
 
 Listagem de arquivos:
-
-	 Vagrantfile - Arquivo que automatiza o provisionamento das VMs.
-	 config_inicial - Shell Script que automatiza a instalação dos softwares necessários, e algunas configurações das VMs.
+	Vagrantfile - Arquivo que automatiza o provisionamento das VMs.
+	config_inicial - Shell Script que automatiza a instalação dos softwares necessários, e algunas configurações das VMs.
 	start-service - Shell script que inicia o ambiente utilizando o docker-compose.
 
 Procedimeto para configuração do ambiente
