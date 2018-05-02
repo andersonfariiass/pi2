@@ -71,14 +71,14 @@ sudo curl -L https://github.com/docker/compose/releases/download/1.21.0/docker-c
 
 #Permissão de exec no docker compose
 echo -e "\n######################################################" >> $LOG
-echo -e "# Dando permissao de execução ao docker-compose      #" >> $LOG
+echo -e "# Dando permissão de execução ao docker-compose      #" >> $LOG
 echo -e "######################################################\n" >> $LOG
 
 sudo chmod +x /usr/local/bin/docker-compose >> $LOG 2>&1
 
 #Limpeza da cahce dos pacotes
 echo -e "\n#####################################" >> $LOG
-echo -e "# Limpando a cache dos pacotes      #" >> $LOG
+echo -e "# Limpando o cache dos pacotes      #" >> $LOG
 echo -e "#####################################" >> $LOG
 
 sudo apt-get autoclean -y >> $LOG 2>&1
