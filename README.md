@@ -22,7 +22,7 @@ Procedimeto para configuração do ambiente
 
 Executando os procedimentos acima,será criado no VirtualBox uma VM:
 	
-	docker_p2: 192.168.50
+	docker_p2: 192.168.50.10
 
 Para acessar a aplicação que foi utilizada para teste:
 	
