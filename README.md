@@ -1,4 +1,4 @@
-# pi2
+# Pojeto Integrador II
 Repositório projeto integrador II
 
 Neste repositorio conterá os arquivos e procedimentos necessários para subir um ambiente de desenvolvimento com Apache, PHP e MySQL em Docker e  Virtualizado.
