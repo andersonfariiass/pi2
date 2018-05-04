@@ -17,7 +17,7 @@ Procedimeto para configuração do ambiente
 	Dentro do diretório pi2/ crie um diretório chamado docker e dentro crie a seguinte estrutura de diretórios:
 		mysql - Diretório onde será armazenado a base de dados do mysql
 		www/html - Diretório onde será armazenado os arquivos da aplicação
-	Dentro do diretório raiz (pi2) execute o comando - vagrant up
+	Dentro do diretório raiz (projeto_2) execute o comando - vagrant up
 	Para acessar a vm digite o comando: vagrant ssh nome_da_vm
 
 Executando os procedimentos acima,será criado no VirtualBox uma VM:
