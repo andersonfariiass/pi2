@@ -1,9 +1,9 @@
 #!/bin/bash
 
-####################################################
-# Script para configurações necessarias ao ambiente#
-# fonte: https://gtihub.com/andersonfariiass       #
-####################################################
+#######################################################
+# Script para configurações necessarias ao ambiente   #
+# fonte: https://github.com/andersonfariiass/projeto_2#
+#######################################################
 
 echo
 
