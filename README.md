@@ -14,10 +14,11 @@ Procedimeto para configuração do ambiente
 	Faça download e instalação do vagrant no site oficial https://www.vagrantup.com/downloads.html
 	Faça download e instalação do VirtualBox
 	Faça download deste projeto (git clone https://github.com/andersonfariiass/projeto_2.git)
-	Dentro do diretório projeto_2/ crie um diretório chamado docker e dentro crie a seguinte estrutura de diretórios:
-		mysql - Diretório onde será armazenado a base de dados do mysql
-		www/html - Diretório onde será armazenado os arquivos da aplicação
-	Dentro do diretório raiz (projeto_2) execute o comando - vagrant up
+	Dentro do diretório projeto_2/ crie a seguinte estrutura de diretórios:
+		docker/
+		   mysql/ - Diretório onde será armazenado a base de dados do mysql
+		   www/html/ - Diretório onde será armazenado os arquivos da aplicação
+	Dentro do diretório raiz (projeto_2/) execute o comando - vagrant up
 	Para acessar a vm digite o comando: vagrant ssh nome_da_vm
 
 Executando os procedimentos acima,será criado no VirtualBox uma VM:
