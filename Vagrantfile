@@ -15,8 +15,7 @@ VAGRANTFILE_API_VERSION = "2"
 end
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-	#config.vm.synced_folder "~/Documents/pi2/docker", "/home/vagrant/"
-
+	
 	# VM do Gerenciador do docker
 	config.vm.define "docker" do |docker|
 
@@ -31,9 +30,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 		
 		# Executa script para a configuracao do ambiente
 		docker.vm.provision "shell", inline: "/bin/bash /vagrant/init-conf.sh docker_p2"
-
-		# Mapeia pasta para a VM
-		#docker.vm.synced_folder "~/Documents/testes/", "/home/vagrant"
 		
 		# Restart da VM para efetivar as atualizacoes dos pacotes instalados
 		docker.vm.provision :reload		
