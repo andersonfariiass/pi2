@@ -5,7 +5,7 @@ Neste repositorio conterá os arquivos e procedimentos necessários para subir u
 
 Listagem de arquivos:
 		
-	Vagrantfile - Arquivo que automatiza o provisionamento da maquina virtual.
+	Vagrantfile - Arquivo que automatizar o provisionamento da máquina virtual.
 	config_inicial.sh - Shell Script que automatiza a instalação dos pacotes necessários, e algunas configurações da VM.
 	start-service.sh - Shell script que automatiza o start do ambiente utilizando o docker-compose.
 
