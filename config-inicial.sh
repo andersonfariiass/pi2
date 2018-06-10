@@ -20,21 +20,21 @@ echo -e "\n######################################" >> $LOG
 echo -e  "# VM $1 iniciada | $HORARIO  #" >> $LOG
 echo -e  "#####################################\n" >> $LOG
 
-#Atulizando o repositorios
+#Atualizando o repositorios
 echo -e "\n####################################" >> $LOG
 echo -e "# Atualização dos repositorios     #" >> $LOG
 echo -e "####################################\n" >> $LOG
 
 sudo apt-get update >> $LOG 2>&1
 
-#Atulização da disto
+#Atualização da disto
 echo -e "\n#############################" >> $LOG
 echo -e "# Atualizando a Distro      #" >> $LOG
 echo -e "#############################\n" >> $LOG
 
 sudo apt-get dist-upgrade -y >> $LOG 2>&1
 
-# Configação de data/hora e fuso horario
+#Configação de data/hora e fuso horario
 echo -e "\n##############################################################" >> $LOG
 echo -e "# Configurando data, hora e fuso horario America/Maceio      #" >> $LOG
 echo -e "##############################################################\n" >> $LOG
@@ -46,7 +46,7 @@ sudo sed -i 's/ntp.ubuntu.com/pool.ntp.br/g' /etc/default/ntpdate
 sudo ntpdate pool.ntp.br >> $LOG 2>&1
 sudo locale-gen pt_BR.UTF-8 >> $LOG 2>&1
 
-#instalando o docker
+#Instalando o docker
 echo -e "\n#############################" >> $LOG
 echo -e "# Instalação do Docker      #" >> $LOG
 echo -e "#############################\n" >> $LOG
@@ -69,7 +69,7 @@ echo -e "#####################################\n" >> $LOG
 sudo curl -L https://github.com/docker/compose/releases/download/1.21.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose >> $LOG 2>&1
 
 
-#Permissão de exec no docker compose
+#Permissão de execução para o docker-compose
 echo -e "\n######################################################" >> $LOG
 echo -e "# Dando permissão de execução ao docker-compose      #" >> $LOG
 echo -e "######################################################\n" >> $LOG
@@ -83,7 +83,7 @@ echo -e "#####################################" >> $LOG
 
 sudo apt-get autoclean -y >> $LOG 2>&1
 
-#Download dos arquivos docker no github
+#Download dos arquivos docker-compose.yml e do index.php no github
 echo -e "\n#############################" >> $LOG
 echo -e "# Download do GitHub        #" >> $LOG
 echo -e "#############################" >> $LOG
