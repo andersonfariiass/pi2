@@ -5,9 +5,9 @@ Neste repositorio conterá os arquivos e procedimentos necessários para subir u
 
 Listagem de arquivos:
 		
-	Vagrantfile - Arquivo que automatizar o provisionamento da máquina virtual.
-	config_inicial.sh - Shell Script que automatiza a instalação dos pacotes necessários, e algunas configurações da VM.
-	start-service.sh - Shell script que automatiza o start do ambiente utilizando o docker-compose.
+	Vagrantfile - Arquivo responsável por automatizar o provisionamento da máquina virtual.
+	config_inicial.sh - Shell Script responsável por automatizar a instalação dos pacotes necessários, e algunas configurações da VM.
+	start-service.sh - Shell script responsável por automatizar o start do ambiente utilizando o docker-compose.
 
 Procedimeto para configuração do ambiente
 	
@@ -15,9 +15,9 @@ Procedimeto para configuração do ambiente
 	Faça download e instalação do VirtualBox
 	Faça download deste projeto (git clone https://github.com/andersonfariiass/projeto_2.git)
 	Dentro do diretório projeto_2/ crie a seguinte estrutura de diretórios:
-		docker/
-		   mysql/ - Diretório onde será armazenado a base de dados do mysql
-		   www/html/ - Diretório onde será armazenado os arquivos da aplicação
+		- docker/
+		   - mysql/ - Diretório onde será armazenado a base de dados do mysql
+		   - www/html/ - Diretório onde será armazenado os arquivos da aplicação
 	Dentro do diretório raiz (projeto_2/) execute o comando - vagrant up
 	Para acessar a vm digite o comando: vagrant ssh
 
