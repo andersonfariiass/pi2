@@ -1,7 +1,7 @@
 # Pojeto Integrador II
 Repositório projeto integrador II
 
-Neste repositorio conterá os arquivos e procedimentos necessários para subir um ambiente de desenvolvimento com Apache, PHP e MySQL em Docker e  Virtualizado.
+Neste repositorio conterá os arquivos e procedimentos necessários para subir um ambiente de desenvolvimento com Apache, PHP e MySQL utilizando as tecnologias Docker e Virtualização com VirtualBox.
 
 Listagem de arquivos:
 		
@@ -19,7 +19,7 @@ Procedimeto para configuração do ambiente
 		   mysql/ - Diretório onde será armazenado a base de dados do mysql
 		   www/html/ - Diretório onde será armazenado os arquivos da aplicação
 	Dentro do diretório raiz (projeto_2/) execute o comando - vagrant up
-	Para acessar a vm digite o comando: vagrant ssh nome_da_vm
+	Para acessar a vm digite o comando: vagrant ssh
 
 Executando os procedimentos acima,será criado no VirtualBox uma VM:
 	
