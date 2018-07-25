@@ -1,7 +1,7 @@
 # Pojeto Integrador II
 Repositório da disciplina projeto integrador II.
 
-Neste repositorio conterá os arquivos e procedimentos necessários para subir um ambiente de desenvolvimento com Apache, PHP e MySQL utilizando as tecnologias Docker e Virtualização com VirtualBox.
+Neste repositorio conterá os arquivos e procedimentos necessários para subir um ambiente de desenvolvimento com Apache, PHP e MySQL utilizando as tecnologias Vagrant, Docker e VirtualBox.
 
 Listagem de arquivos:
 		
