@@ -86,9 +86,9 @@ sudo apt-get autoclean -y >> $LOG 2>&1
 #Download dos arquivos docker-compose.yml e do index.php no github
 #https://github.com/andersonfariiass/compose-file
 
-echo -e "\n#############################" >> $LOG
-echo -e "# Download do GitHub        #" >> $LOG
-echo -e "#############################" >> $LOG
+echo -e "\n#######################################" >> $LOG
+echo -e "# Download do arquivos no GitHub        #" >> $LOG
+echo -e "#########################################" >> $LOG
 
 cd /tmp/
 git clone https://github.com/andersonfariiass/compose-file.git >> $LOG 2>&1
